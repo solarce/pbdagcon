@@ -78,7 +78,8 @@ def convert_mismatches(alnQ, alnT):
                 j += 1
                 c = alnT[j]
                 if c != "-" or j >= len(alnQ)-1:
-                    break
+                    #break
+                    pass
             if c == alnQ[i]:
                 alnT[i] = c
                 alnT[j] = "-"
@@ -89,7 +90,8 @@ def convert_mismatches(alnQ, alnT):
                 j += 1
                 c = alnQ[j]
                 if c != "-" or j >= len(alnT)-1:
-                    break
+                    #break
+                    continue
             if c == alnT[i]:
                 alnQ[i] = c
                 alnQ[j] = "-"
