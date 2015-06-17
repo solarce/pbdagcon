@@ -22,4 +22,6 @@ addons:
     - g++-4.8
     - libyajl-dev
     - libxml2-dev
-    - libxqilla-dev
+    - libxqilla
+notifications:
+  email: false
