@@ -14,8 +14,7 @@ before_install:
 addons:
   apt:
     sources:
-    - ubuntu-precise
-    #    - ubuntu-toolchain-r-test
+    - ubuntu-toolchain-r-test
 addons:
   apt:
     packages:
@@ -24,5 +23,10 @@ addons:
     - gcc-4.8
     - g++-4.8
 #   - libxqilla
+addons:
+  apt:
+    sources:
+    - deadsnakes
 notifications:
   email: false
+
