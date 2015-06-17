@@ -15,14 +15,14 @@ addons:
   apt:
     sources:
     - ubuntu-precise
-    - ubuntu-toolchain-r-test
+    #    - ubuntu-toolchain-r-test
 addons:
   apt:
     packages:
-    - gcc-4.8
-    - g++-4.8
     - libyajl-dev
     - libxml2-dev
-    - libxqilla
+    - gcc-4.8
+    - g++-4.8
+#   - libxqilla
 notifications:
   email: false
