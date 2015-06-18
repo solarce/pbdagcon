@@ -15,18 +15,12 @@ addons:
   apt:
     sources:
     - ubuntu-toolchain-r-test
-addons:
-  apt:
     packages:
     - libyajl-dev
     - libxml2-dev
     - gcc-4.8
     - g++-4.8
 #   - libxqilla
-addons:
-  apt:
-    sources:
-    - deadsnakes
 notifications:
   email: false
 
